@@ -1,5 +1,6 @@
 import { AppState } from "../AppState.js";
 import { vendorsService } from "../services/VendorsService.js";
+import { Pop } from "../utils/Pop.js";
 
 export class VendorsController {
     constructor() {
@@ -31,5 +32,14 @@ export class VendorsController {
     InsertMoney(amount) {
         vendorsService.InsertMoney(amount)
         //this.DrawAvailableMoney()
+    }
+
+    ReturnMoney() {
+        vendorsService.ReturnMoney()
+    }
+
+    EatSnack(snackName) {
+        //we need to pass snack item being eaten to the service with a name
+        vendorsService.EatSnack(snackName)
     }
 }

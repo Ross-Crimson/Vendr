@@ -13,7 +13,7 @@ class ObservableAppState extends EventEmitter {
       imgUrl: 'https://cdna.artstation.com/p/assets/images/images/044/186/144/medium/francesco-rossini-render-lattina.jpg?1639332890'
     }),
     new VendorItem({
-      name: 'Rockin Red Splash',
+      name: 'Rockin Splash',
       price: .50,
       imgUrl: 'https://media.istockphoto.com/id/1219081402/photo/red-chilled-can-of-soda-with-drops.jpg?s=612x612&w=0&k=20&c=QEUfZ7-07794aQbcfvtvuU51CuiDAVw3KcNZwB7d3hI='
     }),
